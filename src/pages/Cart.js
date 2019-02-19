@@ -26,7 +26,7 @@ class CartPage extends Component {
             {this.context.cart.map(cartItem => (
               <li key={cartItem.id}>
                 <div>
-                  <strong>{cartItem.title}</strong> - ${cartItem.price} (
+                  <strong>{cartItem.title}</strong> - Sh.{cartItem.price} (
                   {cartItem.quantity})
                 </div>
                 <div>

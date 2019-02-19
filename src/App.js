@@ -9,10 +9,10 @@ import './App.css';
 class App extends Component {
   state= {
     products: [
-      { id: 'p1', title: 'Gaming Mouse', price: 29.99 },
-      { id: 'p2', title: 'Harry Potter 3', price: 9.99 },
-      { id: 'p3', title: 'Used plastic bottle', price: 0.99 },
-      { id: 'p4', title: 'Half-dried plant', price: 2.99 }
+      { id: 'p1', title: 'Mountain Bike', price: 29.99 },
+      { id: 'p2', title: 'Road Bike', price: 9.99 },
+      { id: 'p3', title: 'Aero Bike', price: 0.99 },
+      { id: 'p4', title: 'Time Trial Bike', price: 2.99 }
     ],
     cart: [],
 

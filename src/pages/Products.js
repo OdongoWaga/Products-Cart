@@ -20,7 +20,7 @@ class ProductsPage extends Component {
             {context.products.map(product => (
               <li key={product.id}>
                 <div>
-                  <strong>{product.title}</strong> - ${product.price}
+                  <strong>{product.title}</strong> - Sh.{product.price}
                 </div>
                 <div>
                   <button
