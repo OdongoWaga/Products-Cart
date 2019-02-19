@@ -7,6 +7,10 @@ export default React.createContext({
         { id: 'p3', title: 'Used plastic bottle', price: 0.99 },
         { id: 'p4', title: 'Half-dried plant', price: 2.99 }
       ],
-      cart: []
+      cart: [],
+
+      addProductToCart: (product) => {},
+      removeProductFromCart: (productId) => {}
+
 
 });
